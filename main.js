@@ -1,7 +1,9 @@
 var times = ["Five!", "Five!", "Five!"]
-var tripleFive = function(time) {
+var tripleFive = function(word) {
 	for (var i = 0; i < 4; i++){
-		return times;
+		return word + word + word;
 		}
 }
-console.log(tripleFive(3))
+console.log(tripleFive("Five!"))
+
+// Not right but I succeeded woo hoo. 
