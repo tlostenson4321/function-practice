@@ -12,3 +12,10 @@ var lastLetter = function(string) {
 	return string.charAt(string.length -1)
 }
 console.log(lastLetter('hello'))
+console.log(lastLetter('island'))
+
+var square = function(number) {
+	return number * number;
+}
+console.log(square(3))
+console.log(square(5))
