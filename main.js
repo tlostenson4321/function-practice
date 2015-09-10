@@ -63,6 +63,7 @@ var sun = function(words) {
 // console.log(sun('asunder'))
 // console.log(sun('catapult'))
 
+
 // I have no idea how this worked, but it did 
 
 var tiny = function(number){
@@ -73,7 +74,15 @@ var tiny = function(number){
 		return 'false';
 	}
 }
-console.log(tiny(0.3))
-console.log(tiny(14))
-console.log(tiny(-5))
+// console.log(tiny(0.3))
+// console.log(tiny(14))
+// console.log(tiny(-5))
 
+var getSeconds = function( MM, SS ) {
+
+	return (MM * 60) + SS;
+}
+// console.log(getSeconds(01, 30))
+// console.log(getSeconds(10, 25))
+
+// This works just not the right syntax. Can't get it to work.
