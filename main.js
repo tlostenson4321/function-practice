@@ -48,6 +48,32 @@ var startsWithA = function(word) {
 var excite = function(word) {
 	return word + '!!!';
 }
-console.log(excite('yes'))
-console.log(excite('go'))
+// console.log(excite('yes'))
+// console.log(excite('go'))
+
+var sun = function(words) {
+	if (words.indexOf() === words.indexOf('sun')) {
+		return 'false'
+	}
+	else {
+		return 'true'
+	}
+}
+// console.log(sun('sundries'))
+// console.log(sun('asunder'))
+// console.log(sun('catapult'))
+
+// I have no idea how this worked, but it did 
+
+var tiny = function(number){
+	if (number < 1 && number > 0) {
+		return 'true';
+	}
+	else {
+		return 'false';
+	}
+}
+console.log(tiny(0.3))
+console.log(tiny(14))
+console.log(tiny(-5))
 
