@@ -42,6 +42,12 @@ var startsWithA = function(word) {
 		return('false');
 	}
 }
-console.log(startsWithA('aardvark'))
-console.log(startsWithA('bear'))
+// console.log(startsWithA('aardvark'))
+// console.log(startsWithA('bear'))
+
+var excite = function(word) {
+	return word + '!!!';
+}
+console.log(excite('yes'))
+console.log(excite('go'))
 
