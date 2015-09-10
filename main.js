@@ -31,5 +31,17 @@ var negate = function(number) {
 var toArray = function(number1, number2, number3){
 	return [number1, number2, number3]
 }
-console.log(toArray(1, 4, 5))
-console.log(toArray(8,9,10))
+// console.log(toArray(1, 4, 5))
+// console.log(toArray(8,9,10))	
+
+var startsWithA = function(word) {
+	if (word.charAt(0) === 'a') {
+		return ('true');
+	}
+	else {
+		return('false');
+	}
+}
+console.log(startsWithA('aardvark'))
+console.log(startsWithA('bear'))
+
